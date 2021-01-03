@@ -1,0 +1,103 @@
+[INFO  - 2020-12-16T02:51:46.809Z] GhostDriver - Main - running on port 45665
+[INFO  - 2020-12-16T02:51:47.771Z] Session [a3c48560-3f49-11eb-9ae4-9950c1950bd6] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36","webSecurityEnabled":true}
+[INFO  - 2020-12-16T02:51:47.771Z] Session [a3c48560-3f49-11eb-9ae4-9950c1950bd6] - page.customHeaders:  - {}
+[INFO  - 2020-12-16T02:51:47.772Z] Session [a3c48560-3f49-11eb-9ae4-9950c1950bd6] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"}
+[INFO  - 2020-12-16T02:51:47.772Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: a3c48560-3f49-11eb-9ae4-9950c1950bd6
+[ERROR - 2020-12-16T02:51:49.414Z] Session [a3c48560-3f49-11eb-9ae4-9950c1950bd6] - page.onError - msg: TypeError: undefined is not a function (evaluating 'performance.mark("gpt-first-ad-request")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-12-16T02:51:49.414Z] Session [a3c48560-3f49-11eb-9ae4-9950c1950bd6] - page.onError - stack:
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-12-16T02:51:49.668Z] Session [a3c48560-3f49-11eb-9ae4-9950c1950bd6] - page.onError - msg: SyntaxError: Unexpected token 'const'
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-12-16T02:51:49.669Z] Session [a3c48560-3f49-11eb-9ae4-9950c1950bd6] - page.onError - stack:
+  write (https://www.premierleague.com/clubs/12/Manchester-United/squad?se=274:1)
+  mv (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:14)
+  o (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:14)
+  bw (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:14)
+  j (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:14)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  vd (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  next (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  f (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  k (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  m (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-12-16T02:51:49.669Z] Session [a3c48560-3f49-11eb-9ae4-9950c1950bd6] - page.onError - msg: SyntaxError: Use of reserved word 'let' in strict mode
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-12-16T02:51:49.669Z] Session [a3c48560-3f49-11eb-9ae4-9950c1950bd6] - page.onError - stack:
+  write (https://www.premierleague.com/clubs/12/Manchester-United/squad?se=274:1)
+  mv (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:14)
+  o (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:14)
+  bw (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:14)
+  j (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:14)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  vd (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  next (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  f (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  k (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  m (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-12-16T02:51:49.669Z] Session [a3c48560-3f49-11eb-9ae4-9950c1950bd6] - page.onError - msg: ReferenceError: Can't find variable: init_ssb
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-12-16T02:51:49.669Z] Session [a3c48560-3f49-11eb-9ae4-9950c1950bd6] - page.onError - stack:
+  global code (https://www.premierleague.com/clubs/12/Manchester-United/squad?se=274:1)
+  write (:0)
+  mv (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:14)
+  o (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:14)
+  bw (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:14)
+  j (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:14)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  vd (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  next (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  f (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  k (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  m (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-12-16T02:51:49.670Z] Session [a3c48560-3f49-11eb-9ae4-9950c1950bd6] - page.onError - msg: ReferenceError: Can't find variable: vu
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-12-16T02:51:49.670Z] Session [a3c48560-3f49-11eb-9ae4-9950c1950bd6] - page.onError - stack:
+  global code (https://www.premierleague.com/clubs/12/Manchester-United/squad?se=274:1)
+  write (:0)
+  mv (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:14)
+  o (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:14)
+  bw (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:14)
+  j (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:14)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  vd (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  next (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  f (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  k (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  m (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+  (anonymous function) (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020120801.js:6)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-12-16T02:51:49.862Z] Session [a3c48560-3f49-11eb-9ae4-9950c1950bd6] - page.onError - msg: ReferenceError: Can't find variable: buildAttribution
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-12-16T02:51:49.862Z] Session [a3c48560-3f49-11eb-9ae4-9950c1950bd6] - page.onError - stack:
+  global code (https://www.premierleague.com/clubs/12/Manchester-United/squad?se=274:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-12-16T02:51:50.713Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1608087110690
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-12-16T02:51:52.002Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1608087111982
+
+  phantomjs://platform/console++.js:263 in error
